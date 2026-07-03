@@ -1,0 +1,15 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: El formulario digital para que el ciudadano registre la solicitud o incidencia.
+- Tarea 2: El dashboard visual para listar y revisar los estados de las solicitudes.
+
+2. ¿Por qué son las más importantes?
+Son las más importantes porque constituyen el núcleo funcional (MVP) del sistema. Sin un formulario no hay datos que capturar ni registrar, y sin un dashboard no hay forma de que el equipo gestione, revise o haga seguimiento a las peticiones. La automatización de notificaciones depende enteramente de que estas dos bases ya funcionen.
+
+3. ¿Qué significa para ti que una tarea esté "terminada"?
+Significa que la funcionalidad cumple con los requisitos del usuario, es segura y está lista para ser usada sin fallos en el entorno de desarrollo.
+
+Criterios de Terminado (Definition of Done):
+- El código es funcional y resuelve el requerimiento de la historia de usuario.
+- Fue probada localmente usando únicamente datos simulados o de práctica (sin datos reales).
+- El código está limpio de credenciales, tokens o archivos de entorno (.env).
+- Quedó guardada y registrada correctamente con un commit en el repositorio de Git.

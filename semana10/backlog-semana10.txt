@@ -1,0 +1,13 @@
+HISTORIAS DE USUARIO (Solución de Veeduría y Gestión Comunitaria)
+
+[Prioridad Alta - 1]
+Como ciudadano, quiero registrar una solicitud o incidencia en un formulario digital para dejar una evidencia formal de mi caso en la plataforma.
+
+[Prioridad Alta - 2]
+Como administrador o revisor, quiero visualizar el listado de solicitudes registradas en un dashboard para hacer el seguimiento de sus estados y avances.
+
+[Prioridad Media - 3]
+Como coordinador comunitario, quiero recibir una notificación automática en Telegram cuando se registre un nuevo reporte para iniciar el proceso de validación.
+
+[Prioridad Baja - 4]
+Como ciudadano, quiero consultar el estado público de mi derecho de petición para saber si requiere ajustes o si ya fue resuelto.

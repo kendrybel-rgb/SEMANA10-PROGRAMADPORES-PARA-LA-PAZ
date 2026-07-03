@@ -1,0 +1,14 @@
+DISEÑO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+1. ¿Qué evento activa el flujo (Trigger)?
+El flujo se activa mediante un nodo Webhook en n8n, el cual recibe un evento automático cada vez que un ciudadano envía con éxito un nuevo formulario de solicitud en la plataforma.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Mensaje a enviar: "Alerta de Veeduría: Se ha registrado una nueva solicitud en el sistema. Por favor, ingresar al dashboard administrativo para revisar el caso y asignar un estado."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por políticas estrictas de privacidad y seguridad, jamás se deben enviar:
+- Nombres completos o apellidos de los ciudadanos.
+- Números de documento de identidad (cédulas, pasaportes).
+- Direcciones físicas, correos electrónicos o números de teléfono personales.
+- Contraseñas, claves de API, tokens o datos sensibles del servidor.
